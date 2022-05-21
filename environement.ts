@@ -3,7 +3,7 @@ import { ConfigModule } from '@nestjs/config';
 ConfigModule.forRoot();
 
 const config = {
-    mode: 'dev',
+    mode: 'prod',
 }
 
 let devDatabaseURL = 'mongodb://localhost:27017/bibliotheque-api';
